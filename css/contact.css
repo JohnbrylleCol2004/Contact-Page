@@ -281,19 +281,18 @@ input, textarea {
     text-decoration: underline;
 }
 
-.social-icons a {
+.social-icons i {
     margin: 0 10px;
-    color: #b9975c;
+    color: #FFEAC5;
     font-size: 24px;
     text-decoration: none;
     transition: transform 0.3s;
 }
 
-.social-icons a:hover {
+.social-icons i:hover {
     transform: scale(1.2);
     color: #FFD700;
 }
-
 .footer-bottom {
     margin-top: 20px;
     padding-top: 15px;
