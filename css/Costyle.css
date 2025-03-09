@@ -116,6 +116,7 @@ html, body {
     position: relative;
     width: 1000px;
     height: 400px;
+    overflow: hidden;
     margin: 20px auto;
     display: flex;
     align-items: center;
@@ -132,13 +133,14 @@ html, body {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: max-content; 
+    overflow-x: hidden;
 }   
 
 .carousel img {
     width: 1000px;
-    height: 400px;
+    height: auto;
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Navigation Buttons */
@@ -402,3 +404,4 @@ input, textarea {
         justify-content: space-between;
     }
 }
+
