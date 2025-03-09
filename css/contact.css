@@ -247,6 +247,12 @@ input, textarea {
     padding-bottom: 5px;
 }
 
+.footer-section p {
+    color: #FFEAC5;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
 .footer-section ul {
     display: flex;
     gap: 15px; /* Adjust spacing between items */
@@ -288,6 +294,10 @@ input, textarea {
     color: #FFD700;
 }
 
+.footer-section social-icons{
+    color: #FFEAC5;
+    display: flex;
+}
 .footer-bottom {
     margin-top: 20px;
     padding-top: 15px;
